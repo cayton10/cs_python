@@ -42,9 +42,7 @@ if shipping_method == 'd':
     else:
         weight_factor = 14.25
 shipping_cost = weight * weight_factor + flat_charge
-print("weight: " + str(weight))
-print("weight_factor: " + str(weight_factor))
-print("flat_charge: " + str(flat_charge))
+
 print("The cost to ship your package is: $" + str(shipping_cost))
 
 
